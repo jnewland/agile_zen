@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "AgileZen" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it "should provide a version constant" do
+    AgileZen::VERSION.should be_instance_of(String)
   end
 end
