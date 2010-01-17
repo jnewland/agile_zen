@@ -11,9 +11,7 @@ begin
     gem.homepage = "http://github.com/jnewland/agile_zen"
     gem.authors = ["Jesse Newland"]
     gem.add_development_dependency "rspec", "= 1.2.9"
-    gem.add_development_dependency "fakeweb"
-    gem.add_dependency "hashie", "~> 0.1.8"
-    gem.add_dependency "httparty", "~> 0.5.0"
+    gem.add_dependency "activeresource", "~> 2.3.5"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
